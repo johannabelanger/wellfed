@@ -1,0 +1,27 @@
+Ingredients
+  Ingredients have names, purchase units (eg 28 oz can), life spans, purchase locations, substitutions, minimum amount on hand.
+  Instances of ingredients can be placed in inventory and their details edited per instance.
+  Recipes can also be ingredients (eg a loaf of bread homemade from a recipe)
+  Ingredients can be edited while entering/editing a recipe
+Recipes
+  Enter a recipe
+    A recipe is a collection of ingredients with amounts, number of servings, preparation time, instructions, and nutrition data.
+    Entry should be as streamlined as possible. Entry as plain text which will be parsed would be ideal, and would allow copy/paste entry and scraping from websites.
+  Find recipes
+    Find recipes for which ingredients are in inventory, which use ingredients in danger of going bad, which fill nutritional gaps
+  Make a recipe
+    Enter desired number of servings
+    Display recipe in format that makes it easy to follow while in the kitchen
+    Set timers and notifications for steps in the recipe
+Inventory
+  Inventory contains instances of ingredients that represent stock held in the real world.
+  Inventory can be increased by marking it off the shopping list or by adding an amount by hand.
+  Inventory can be reduced by preparing a recipe or by reducing an amount by hand.
+Shopping List
+  The shopping list automatically contains the purchase units needed to meet or exceed minimum amount on hand - unreserved amount in inventory.
+  Shopping list can be adjusted by hand, and have additional items added by hand
+  Shopping list can be ordered by purchase location
+  Items on shopping list can be marked Make instead, and the ingredients to make them will be reserved.
+Nutrition Goals
+  Later
+
